@@ -82,6 +82,7 @@
                     <navigationItem key="navigationItem" title="Demo" id="BFO-SN-uVr"/>
                     <connections>
                         <segue destination="sBO-Kw-gU9" kind="show" identifier="pattern1SegueIdentifier" id="2YH-SW-AHa"/>
+                        <segue destination="3xQ-2U-ji6" kind="show" identifier="pattern2SegueIdentifier" id="f1C-l0-EXZ"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mtt-w3-jyM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -91,18 +92,32 @@
         <!--Pattern1-->
         <scene sceneID="fb2-gC-rFa">
             <objects>
-                <viewController id="sBO-Kw-gU9" customClass="Pattern1ViewController" customModule="MemoryAntiPattern" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Pattern1" id="sBO-Kw-gU9" customClass="Pattern1ViewController" customModule="MemoryAntiPattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DmS-xz-Bxd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="WHo-Ct-3th"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Pattern1" id="Jgv-iF-Ndk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F2u-Ps-Yxc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1929" y="-449"/>
+        </scene>
+        <!--Pattern2-->
+        <scene sceneID="8iP-Ch-PLz">
+            <objects>
+                <viewController title="Pattern2" id="3xQ-2U-ji6" customClass="Pattern2ViewController" customModule="MemoryAntiPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xGh-Xf-tNp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ATQ-lg-JYR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFp-rC-diD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1929" y="269"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5x8-uG-P7h">

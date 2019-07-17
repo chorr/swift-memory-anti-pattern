@@ -18,15 +18,15 @@ class DemoViewController: UITableViewController {
         switch indexPath.row {
         case 0:
             performSegue(withIdentifier: "pattern1SegueIdentifier", sender: nil)
+        case 1:
+            performSegue(withIdentifier: "pattern2SegueIdentifier", sender: nil)
         default:
             break
         }
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let viewController = segue.destination as? Pattern1ViewController {
-            
-        }
+        // TODO
     }
 }
 

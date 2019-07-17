@@ -13,6 +13,8 @@
 		436E580522DF001F00B14BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436E580322DF001F00B14BC0 /* LaunchScreen.storyboard */; };
 		436E580D22DF011300B14BC0 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E580C22DF011300B14BC0 /* DemoViewController.swift */; };
 		436E580F22DF036D00B14BC0 /* Pattern1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E580E22DF036D00B14BC0 /* Pattern1ViewController.swift */; };
+		436E581122DF10F500B14BC0 /* Pattern2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E581022DF10F500B14BC0 /* Pattern2ViewController.swift */; };
+		436E581322DF17E100B14BC0 /* Pattern3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E581222DF17E100B14BC0 /* Pattern3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		436E580622DF001F00B14BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436E580C22DF011300B14BC0 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		436E580E22DF036D00B14BC0 /* Pattern1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern1ViewController.swift; sourceTree = "<group>"; };
+		436E581022DF10F500B14BC0 /* Pattern2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern2ViewController.swift; sourceTree = "<group>"; };
+		436E581222DF17E100B14BC0 /* Pattern3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				436E580622DF001F00B14BC0 /* Info.plist */,
 				436E580C22DF011300B14BC0 /* DemoViewController.swift */,
 				436E580E22DF036D00B14BC0 /* Pattern1ViewController.swift */,
+				436E581022DF10F500B14BC0 /* Pattern2ViewController.swift */,
+				436E581222DF17E100B14BC0 /* Pattern3ViewController.swift */,
 			);
 			path = MemoryAntiPattern;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				436E57FB22DF001E00B14BC0 /* AppDelegate.swift in Sources */,
 				436E580F22DF036D00B14BC0 /* Pattern1ViewController.swift in Sources */,
+				436E581122DF10F500B14BC0 /* Pattern2ViewController.swift in Sources */,
+				436E581322DF17E100B14BC0 /* Pattern3ViewController.swift in Sources */,
 				436E580D22DF011300B14BC0 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

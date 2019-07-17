@@ -9,7 +9,6 @@
 import UIKit
 
 class Pattern1ViewController: UIViewController {
-
     deinit {
         print("## deinit : Pattern1ViewController")
     }
