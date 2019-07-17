@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		436E57FB22DF001E00B14BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E57FA22DF001E00B14BC0 /* AppDelegate.swift */; };
-		436E57FD22DF001E00B14BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E57FC22DF001E00B14BC0 /* ViewController.swift */; };
 		436E580022DF001E00B14BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436E57FE22DF001E00B14BC0 /* Main.storyboard */; };
 		436E580222DF001F00B14BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436E580122DF001F00B14BC0 /* Assets.xcassets */; };
 		436E580522DF001F00B14BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436E580322DF001F00B14BC0 /* LaunchScreen.storyboard */; };
+		436E580D22DF011300B14BC0 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E580C22DF011300B14BC0 /* DemoViewController.swift */; };
+		436E580F22DF036D00B14BC0 /* Pattern1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E580E22DF036D00B14BC0 /* Pattern1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		436E57F722DF001E00B14BC0 /* MemoryAntiPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryAntiPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436E57FA22DF001E00B14BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		436E57FC22DF001E00B14BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		436E57FF22DF001E00B14BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		436E580122DF001F00B14BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		436E580422DF001F00B14BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		436E580622DF001F00B14BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436E580C22DF011300B14BC0 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		436E580E22DF036D00B14BC0 /* Pattern1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				436E57FA22DF001E00B14BC0 /* AppDelegate.swift */,
-				436E57FC22DF001E00B14BC0 /* ViewController.swift */,
 				436E57FE22DF001E00B14BC0 /* Main.storyboard */,
 				436E580122DF001F00B14BC0 /* Assets.xcassets */,
 				436E580322DF001F00B14BC0 /* LaunchScreen.storyboard */,
 				436E580622DF001F00B14BC0 /* Info.plist */,
+				436E580C22DF011300B14BC0 /* DemoViewController.swift */,
+				436E580E22DF036D00B14BC0 /* Pattern1ViewController.swift */,
 			);
 			path = MemoryAntiPattern;
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436E57FD22DF001E00B14BC0 /* ViewController.swift in Sources */,
 				436E57FB22DF001E00B14BC0 /* AppDelegate.swift in Sources */,
+				436E580F22DF036D00B14BC0 /* Pattern1ViewController.swift in Sources */,
+				436E580D22DF011300B14BC0 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,14 +287,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56D2275682;
 				INFOPLIST_FILE = MemoryAntiPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.chorr.MemoryAntiPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = net.chorr.memoryantipattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -300,14 +305,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56D2275682;
 				INFOPLIST_FILE = MemoryAntiPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.chorr.MemoryAntiPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = net.chorr.memoryantipattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
