@@ -16,6 +16,7 @@
 		436E581122DF10F500B14BC0 /* Pattern2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E581022DF10F500B14BC0 /* Pattern2ViewController.swift */; };
 		436E581322DF17E100B14BC0 /* Pattern3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E581222DF17E100B14BC0 /* Pattern3ViewController.swift */; };
 		436E581522DF1F5E00B14BC0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 436E581422DF1F5E00B14BC0 /* README.md */; };
+		436E581722DF2A5100B14BC0 /* Pattern4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E581622DF2A5100B14BC0 /* Pattern4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		436E581022DF10F500B14BC0 /* Pattern2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern2ViewController.swift; sourceTree = "<group>"; };
 		436E581222DF17E100B14BC0 /* Pattern3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern3ViewController.swift; sourceTree = "<group>"; };
 		436E581422DF1F5E00B14BC0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		436E581622DF2A5100B14BC0 /* Pattern4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				436E580E22DF036D00B14BC0 /* Pattern1ViewController.swift */,
 				436E581022DF10F500B14BC0 /* Pattern2ViewController.swift */,
 				436E581222DF17E100B14BC0 /* Pattern3ViewController.swift */,
+				436E581622DF2A5100B14BC0 /* Pattern4ViewController.swift */,
 			);
 			path = MemoryAntiPattern;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436E581722DF2A5100B14BC0 /* Pattern4ViewController.swift in Sources */,
 				436E57FB22DF001E00B14BC0 /* AppDelegate.swift in Sources */,
 				436E580F22DF036D00B14BC0 /* Pattern1ViewController.swift in Sources */,
 				436E581122DF10F500B14BC0 /* Pattern2ViewController.swift in Sources */,

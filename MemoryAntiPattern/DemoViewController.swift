@@ -22,6 +22,8 @@ class DemoViewController: UITableViewController {
             performSegue(withIdentifier: "pattern2SegueIdentifier", sender: nil)
         case 2:
             performSegue(withIdentifier: "pattern3SegueIdentifier", sender: nil)
+        case 3:
+            performSegue(withIdentifier: "pattern4SegueIdentifier", sender: nil)
         default:
             break
         }
