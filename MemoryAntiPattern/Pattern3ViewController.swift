@@ -16,5 +16,23 @@ class Pattern3ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // no problem
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(appDidBecomeActiveNotificationAction),
+                                               name: UIApplication.didBecomeActiveNotification,
+                                               object: nil)
+
+        // YES PROBLEM!
+        NotificationCenter.default.addObserver(forName: UIApplication.didBecomeActiveNotification, object: nil, queue: .main) { (notification) in
+            self.printNotificationClosureStatus()
+        }
+    }
+
+    @objc func appDidBecomeActiveNotificationAction() {
+        print("## \(#function)")
+    }
+
+    private func printNotificationClosureStatus() {
+        print("## \(#function)")
     }
 }
